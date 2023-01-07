@@ -1,0 +1,90 @@
+
+.rd{
+	
+  width: 100px;
+  height: 100px;
+	
+	background-color: #55bbea;
+	
+
+}
+.up{
+	height: 100px;
+	
+}
+.top{
+	background-color: #C6A3E8;
+	height: 150px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.banner{
+	
+	height: 820px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.col-wrapper{
+	margin-top: 80px;
+	font-style: #07F8AB;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-size:120%;
+	background:#F8F8FF;
+}
+
+.header{
+	
+	width:30%;
+	margin:50px auto 0px;
+	color:white;
+	background:#5F9EA0;
+	text-align:center;
+	border:1px solid #B0C4DE;
+	border-bottom:none;
+	border-radius: 10px 10px 0px 0px;
+	padding:20px;
+}
+.ctg{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.sdr{
+	height:200px;
+}
+
+.header-area{
+	margin-left: 200px;
+}
+.header-area h2{
+
+	animation: type 3s steps(104);
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: 'Shadows Into Light', cursive;
+	border-right: 3px solid black;
+
+	
+
+}
+@keyframes type{
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width: 104ch;
+	}
+}
+.detail{
+	margin-top: 100px;
+		font-family: 'Shadows Into Light', cursive;
+}
+.seeall{
+	text-align: center;
+	vertical-align: center;
+}
